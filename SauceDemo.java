@@ -26,7 +26,7 @@ public class SauceDemo {
 		
 		
 		
-		assertThat(page).hasURL(Pattern.compile(".*inventory.html*."));
+		assertThat(page).hasURL(Pattern.compile(".*inventory\\.html"));
 		
 		System.out.println("login sucessfully");
 		
